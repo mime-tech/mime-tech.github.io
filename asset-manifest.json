@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mime-tech.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/mime-tech.github.io/static/js/main.9ee7b4e3.js",
+    "static/js/787.91ae0b9a.chunk.js": "/mime-tech.github.io/static/js/787.91ae0b9a.chunk.js",
+    "static/media/logo.svg": "/mime-tech.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mime-tech.github.io/index.html",
+    "main.073c9b0a.css.map": "/mime-tech.github.io/static/css/main.073c9b0a.css.map",
+    "main.9ee7b4e3.js.map": "/mime-tech.github.io/static/js/main.9ee7b4e3.js.map",
+    "787.91ae0b9a.chunk.js.map": "/mime-tech.github.io/static/js/787.91ae0b9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9ee7b4e3.js"
+  ]
+}
