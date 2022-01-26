@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+
+// mui import
+import { Box } from '@mui/material';
+
+// project import
+import Hero from './components/Hero';
+import Copyright from './components/Copyright';
+import Header from './components/navigation/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Hero />
+
+      {/* placeholder */}
+      <Box
+        sx={{
+          minHeight: '100vh',
+          backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/bg.jpeg'})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
+      />
+
+      <Copyright />
+    </React.Fragment>
   );
 }
 
