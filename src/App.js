@@ -5,12 +5,15 @@ import { Box } from '@mui/material';
 
 // project import
 import Hero from './components/Hero';
+import Header from './components/navigation/Header';
 
 function App() {
   return (
     <React.Fragment>
+      <Header />
       <Hero />
 
+      {/* placeholder */}
       <Box
         sx={{
           minHeight: '100vh',
