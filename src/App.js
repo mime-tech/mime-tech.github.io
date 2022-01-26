@@ -5,6 +5,7 @@ import { Box } from '@mui/material';
 
 // project import
 import Hero from './components/Hero';
+import Copyright from './components/Copyright';
 import Header from './components/navigation/Header';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           backgroundSize: 'cover',
         }}
       />
+
+      <Copyright />
     </React.Fragment>
   );
 }
