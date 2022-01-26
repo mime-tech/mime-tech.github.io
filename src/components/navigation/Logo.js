@@ -6,16 +6,20 @@ const Logo = (props) => {
   const logoText = 'M';
 
   return (
-    <Link color='inherit' underline='none' href='https://mime-tech.github.io/'>
-      <Typography
-        variant='h3'
-        noWrap
-        component='div'
-        sx={{ display: 'flex', fontFamily: 'Zen Tokyo Zoo', ...props }}
+    <Typography
+      variant='h3'
+      noWrap
+      component='div'
+      sx={{ display: 'flex', fontFamily: 'Zen Tokyo Zoo', ...props }}
+    >
+      <Link
+        color='inherit'
+        underline='none'
+        href='https://mime-tech.github.io/'
       >
         {logoText}
-      </Typography>
-    </Link>
+      </Link>
+    </Typography>
   );
 };
 
