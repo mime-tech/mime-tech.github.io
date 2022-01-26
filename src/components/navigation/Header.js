@@ -23,7 +23,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import ScrollEffect from './ScrollEffect';
 import Logo from './Logo';
 
-const pages = ['Home', 'Technologies', 'About'];
+const pages = ['Home', 'Products', 'About'];
 
 const StyledTabs = styled((props) => (
   <Tabs {...props} TabIndicatorProps={{ style: { display: 'none' } }} />
