@@ -1,9 +1,16 @@
 import * as React from 'react';
-import { Box, Grid, Typography } from '@mui/material';
+
+// mui import
+import { Box } from '@mui/material';
+
+// project import
+import Hero from './components/Hero';
 
 function App() {
   return (
     <React.Fragment>
+      <Hero />
+
       <Box
         sx={{
           minHeight: '100vh',
@@ -12,19 +19,6 @@ function App() {
           backgroundSize: 'cover',
         }}
       />
-
-      <Grid
-        container
-        direction='column'
-        justifyContent='space-evenly'
-        alignItems='center'
-        spacing={0}
-        sx={{ minHeight: '100vh' }}
-      >
-        <Grid item>
-          <Typography variant='h1'>Hello</Typography>
-        </Grid>
-      </Grid>
     </React.Fragment>
   );
 }
